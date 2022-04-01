@@ -1,0 +1,25 @@
+.lang__lang-link {
+    width: 30px;
+    height: 28px;
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;    
+    background: transparent;
+    border: none;
+    justify-items: flex-start;
+}
+
+.lang__lang-link:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 320px) {
+    .lang__lang-link {
+        width: 22px;
+        height: 20px;
+        font-size: 18px;
+        line-height: 20px;
+   }
+}

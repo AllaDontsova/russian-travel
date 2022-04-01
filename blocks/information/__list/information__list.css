@@ -1,0 +1,8 @@
+.information__list {
+    margin: 0;
+    font-weight: bold;
+    font-size: 0.75rem;
+    line-height: 1.2;
+    list-style: none;
+    padding: 0;
+}

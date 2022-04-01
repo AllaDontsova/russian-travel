@@ -1,0 +1,10 @@
+.page {
+    max-width: 1280px;
+    width: 100%;
+    height: 6875px;
+    background: #2A2C2F;
+    font-family: 'Inter';
+    font-style: normal;
+    margin: auto;
+    overflow: hidden;
+}

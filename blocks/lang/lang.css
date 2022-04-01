@@ -1,0 +1,5 @@
+.lang {
+    display: flex;
+    justify-self: end;
+    gap: 18px;
+}
