@@ -1,0 +1,29 @@
+.content {
+    display: grid;
+    row-gap: 92px;
+    margin-top: 56px;
+    margin-bottom: 92px;
+    justify-items: center;
+}
+
+@media screen and (max-width: 1140px) {
+    .content {
+        margin-top: 48px;
+    }
+}
+
+@media screen and (max-width: 984px) {
+    .content {
+        margin-bottom: 88px;
+        margin-left: 0;
+        margin-right: 0;
+        row-gap: 88px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .content {
+        margin-bottom: 64px;
+        row-gap: 64px;
+    }
+}

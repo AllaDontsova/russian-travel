@@ -1,6 +1,6 @@
-.lang__lang-link {
-    width: 30px;
-    height: 28px;
+.header__lang-link {
+    max-width: 30px;
+    min-height: 28px;
     color: #FFFFFF;
     font-weight: normal;
     font-size: 24px;
@@ -9,16 +9,17 @@
     background: transparent;
     border: none;
     justify-items: flex-start;
+    padding: 0;
 }
 
-.lang__lang-link:hover {
+.header__lang-link:hover {
     text-decoration: underline;
 }
 
-@media screen and (max-width: 320px) {
-    .lang__lang-link {
-        width: 22px;
-        height: 20px;
+@media screen and (max-width: 568px) {
+    .header__lang-link {
+        max-width: 22px;
+        min-height: 20px;
         font-size: 18px;
         line-height: 20px;
    }
