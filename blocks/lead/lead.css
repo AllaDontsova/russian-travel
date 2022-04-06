@@ -22,9 +22,10 @@
         min-height: 862px;
         margin: 0;
     }
+}
 
-    @media screen and (max-width: 568px) {
-        .lead {
-            min-height: 406px;
-        }
+@media screen and (max-width: 568px) {
+    .lead {
+        min-height: 406px;
     }
+}
